@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-#profile, #about, #education, #hobbies{
+#profile, #about, #education, #hobbies,#skills{
     min-height: 500px;
     padding-bottom: 50px;
 }
@@ -38,7 +38,7 @@
     padding: 30px;
 }
 
-ul {
+ul li {
     list-style: none;
     line-height: 45px;
 }
@@ -61,3 +61,9 @@ ul {
 #hobbies{
     background-color: rgb(34, 57, 58);
 }
+#skills {
+    background-image: url("https://cdn.acodez.in/wp-content/uploads/2019/07/What-is-the-future-and-scope-of-web-development-career-banner.jpg");
+    background-size: cover;
+    width: 100%;
+    padding: 40px;
+  }
