@@ -3,8 +3,9 @@
     margin: 0;
 }
 
-#profile, #about, #education{
-    height: 500px;
+#profile, #about, #education, #hobbies{
+    min-height: 500px;
+    padding-bottom: 50px;
 }
 
 #profile {
@@ -55,4 +56,8 @@ ul {
 
 .ed-img{
     height: 160px;
+}
+
+#hobbies{
+    background-color: rgb(34, 57, 58);
 }
